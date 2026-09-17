@@ -1,0 +1,1 @@
+var e=document.querySelector(`[data-showcase]`);e&&!window.matchMedia(`(prefers-reduced-motion: reduce)`).matches&&setTimeout(()=>{e.setAttribute(`data-open`,``),setTimeout(()=>e.removeAttribute(`data-open`),4200)},900);
