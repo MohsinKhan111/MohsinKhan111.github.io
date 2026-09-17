@@ -1,0 +1,5 @@
+# Security contact for Rivenside.
+Contact: mailto:mohsinmkhan676@gmail.com
+Expires: 2027-09-15T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://mohsinkhan111.github.io/.well-known/security.txt
