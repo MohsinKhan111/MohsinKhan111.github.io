@@ -1,0 +1,1 @@
+document.querySelectorAll(`[data-back]`).forEach(e=>{e.addEventListener(`click`,e=>{if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;let t=!1;try{t=new URL(document.referrer).origin===window.location.origin}catch{t=!1}t&&window.history.length>1&&(e.preventDefault(),window.history.back())})});
